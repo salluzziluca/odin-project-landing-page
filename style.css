@@ -8,18 +8,19 @@ body{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 0 18px 0 18px;
+    padding:18px 120px 60px 120px;
 }
 .header-logo{
     font-size: 24px;
     color: #F9FAF8;
-    padding-top:18px ;
 }
 
 ul{
  list-style: none;
  display: flex;
  gap: 16px;
+ margin: 0;
+ padding: 0;
 }
 
 a{
@@ -31,9 +32,12 @@ a{
 .hero{
     display: flex;
     background-color: #1F2937;
-    padding: 0 18px 0 18px;
+    padding: 60px 120px 120px 120px;
+    justify-content: space-evenly;
 }
-
+.hero-info{
+    padding-right:80px ;
+}
 .hero-main-text{
     color: #F9FAF8;
     font-size: 48px;
@@ -56,6 +60,6 @@ button{
 }
 
 img{
-    width: 600px;
+    width: 100%;
     height: auto;
 }
