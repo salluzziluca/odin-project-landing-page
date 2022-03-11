@@ -63,3 +63,21 @@ img{
     width: 100%;
     height: auto;
 }
+
+.subtitle{
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.square-images{
+    display: flex;
+    gap: 32px;
+}
+
+.square-image{
+    border: solid 4px #3882f6;
+    height: 80px;
+    flex: 1 1 auto;
+}
