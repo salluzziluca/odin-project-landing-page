@@ -71,13 +71,34 @@ img{
     color: #1F2937;
 }
 
-.square-images{
+
+/* TODO Ajustar el tamaño de los containers */
+.images-and-descriptions{
     display: flex;
     gap: 32px;
+    justify-content: center;
+    align-items: center;
 }
 
-.square-image{
-    border: solid 4px #3882f6;
-    height: 80px;
-    flex: 1 1 auto;
+.image-and-description{
+    display: flex;
+    flex-direction: column;
+    
+    height: 200px;
+    width: 150px;
+
+}
+
+.square{
+    border: solid 2px #3882f6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
+
+/* TODO Ajustar el tamaño de los fuente y su estilo */
+.image-description{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
