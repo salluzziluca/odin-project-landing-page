@@ -76,7 +76,7 @@ img{
 }
 
 
-/* TODO Ajustar el tamaño de los containers */
+
 .images-and-descriptions{
     display: flex;
     gap: 32px;
