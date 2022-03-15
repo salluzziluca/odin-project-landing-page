@@ -73,7 +73,7 @@ img{
 }
 
 .container-2{
-    padding-bottom: 154.432px;
+    padding:0px 295px 154.432px 295px;
 }
 
 .subtitle{
@@ -121,16 +121,18 @@ img{
 
 .container-3{
     background-color: #E5E7EB;
-    padding: 64px;
+    padding: 132.656px 295px 132.656px 295px;
 }
 
 .quote{
     font-size: 36px;
-    font-weight: 50;
+    font-weight: light;
     font-style: italic;
     color: #1F2937;
 }
+
 .author{
     text-align: right;
     font-weight: bold;
+    padding-right: 80px;
 }
