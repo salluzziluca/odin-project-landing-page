@@ -119,4 +119,18 @@ img{
     color: rgb(71, 71, 71);
 }
 
+.container-3{
+    background-color: #E5E7EB;
+    padding: 64px;
+}
 
+.quote{
+    font-size: 36px;
+    font-weight: 50;
+    font-style: italic;
+    color: #1F2937;
+}
+.author{
+    text-align: right;
+    font-weight: bold;
+}
