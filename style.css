@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* *{
+*{
     border: solid red 1px;
-} */
+}
 
 body{
     margin: 0;
@@ -135,4 +135,19 @@ img{
     text-align: right;
     font-weight: bold;
     padding-right: 80px;
+}
+
+.sing-up-container{
+    padding: 60px 120px 120px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration{
+background-color: #3882f6;
+display: flex;
+border-radius: 8px;
+padding: 32px;
+align-items: center;
 }
