@@ -138,7 +138,7 @@ img{
 }
 
 .sing-up-container{
-    padding: 60px 120px 120px 120px;
+    padding: 120px 120px 120px 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,7 +148,7 @@ img{
     background-color: #3882f6;
     display: flex;
     border-radius: 8px;
-    padding: 40px;
+    padding: 40px 20px 40px 20px;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
@@ -176,5 +176,13 @@ img{
     font-weight: 700;
 }
 
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    font-size: 14px;
+}
+
+
 /* TODO repasar las formas de hacer styling y poner bonito el codigo intentando evitar repeticiones */
-/* TODO Make de website fully responsive for mobile */
